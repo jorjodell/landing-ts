@@ -1,3 +1,4 @@
+import Home from './components/Home';
 import logoImgUrl from './assets/logo.png';
 
 function App() {
@@ -15,18 +16,7 @@ function App() {
           <a href="#home">Blog</a>
         </nav>
       </header>
-      <section className="home" id="home">
-        <div className="content">
-          <div className="grid content-center">
-            <div className="bg-white py-3.5 pl-[18px] pr-[7px]">
-              <h2 className="font-bold text-3.5xl text-primary">
-                A Great App Makes Your Life Better
-              </h2>
-            </div>
-            <div className="absolute h-[120%]" />
-          </div>
-        </div>
-      </section>
+      <Home />
       <section className="about" id="about"></section>
       <section className="features"></section>
       <section className="screenshot" id="screenshot"></section>
