@@ -5,4 +5,17 @@
 }
 
 @tailwind components;
+
 @tailwind utilities;
+
+.content {
+  padding: 0 16px;
+}
+
+
+@media (min-width: 1200px) {
+  .content {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
