@@ -1,8 +1,21 @@
+import logoImgUrl from './assets/logo.png';
+
 function App() {
   return (
     <div className="App">
-      <header></header>
-      <section className="main">
+      <header>
+        <div className="logo">
+          <img src={logoImgUrl} alt="logo" />
+        </div>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#home">Features</a>
+          <a href="#home">Screenshot</a>
+          <a href="#home">Blog</a>
+        </nav>
+      </header>
+      <section className="home" id="home">
         <div className="content">
           <div className="grid content-center">
             <div className="bg-white py-3.5 pl-[18px] pr-[7px]">
@@ -14,9 +27,9 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="about"></section>
+      <section className="about" id="about"></section>
       <section className="features"></section>
-      <section className="checkout"></section>
+      <section className="screenshot" id="screenshot"></section>
       <section className="download"></section>
       <section className="manual"></section>
       <section className="team"></section>
