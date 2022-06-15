@@ -1,0 +1,23 @@
+.home {
+  background-color: theme('colors.primary');
+  background-image: url(../../assets/home_bg.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.content {
+  display: grid;
+  align-content: center;
+}
+
+.description {
+  @apply bg-white py-3.5 pl-[18px] pr-[7px];
+}
+.description h2 {
+  @apply font-bold text-3.5xl text-primary;
+}
+
+.border {
+  @apply absolute h-[120%];
+}
