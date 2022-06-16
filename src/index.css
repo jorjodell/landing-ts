@@ -16,6 +16,13 @@ body {
   padding: 0 16px;
 }
 
+.bg {
+  background-color: theme('colors.primary');
+  background-image: url(./assets/home_bg.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
 
 @media (min-width: 1200px) {
   .content {

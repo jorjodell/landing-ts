@@ -3,7 +3,7 @@ import css from './home.module.css';
 
 const Home = () => {
   return (
-    <section className={css.home} id="home">
+    <section className={clsx(css.home, 'bg')} id="home">
       <div className={clsx('content', css.content)}>
         <div className={css.description}>
           <div>

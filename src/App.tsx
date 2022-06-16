@@ -1,5 +1,6 @@
 import Home from './components/Home';
 import Header from './components/Header';
+import Features from './components/Features';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         </div>
       </section>
       <section className="about" id="about"></section>
-      <section className="features"></section>
+      <Features />
       <section className="screenshot" id="screenshot"></section>
       <section className="download"></section>
       <section className="manual"></section>
